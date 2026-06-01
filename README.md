@@ -3,7 +3,7 @@
 **Universidad CIAF - Ingeniería en Desarrollo de Software (2026)**
 **Asignatura:** Cálculo Multivariado
 **Profesor:** Aimer A. Rivas Montoya
-**Integrantes:** [Tu Nombre 1], [Tu Nombre 2]
+**Integrantes:** [Diego Alejandro Monrroy García],
 
 ## Descripción del Proyecto
 Este repositorio contiene un motor de cálculo vectorial desarrollado en Python. Su objetivo es calcular, validar numéricamente y visualizar tres conceptos fundamentales del cálculo multivariado: el Teorema de Green, Campos Conservativos (Trabajo y Función Potencial) y el Teorema de Stokes en 3D. 
