@@ -3,7 +3,7 @@
 **Universidad CIAF - Ingeniería en Desarrollo de Software (2026)**
 **Asignatura:** Cálculo Multivariado
 **Profesor:** Aimer A. Rivas Montoya
-**Integrantes:** [Diego Alejandro Monrroy García],
+**Integrantes:** Diego Alejandro Monrroy García
 
 ## Descripción del Proyecto
 Este repositorio contiene un motor de cálculo vectorial desarrollado en Python. Su objetivo es calcular, validar numéricamente y visualizar tres conceptos fundamentales del cálculo multivariado: el Teorema de Green, Campos Conservativos (Trabajo y Función Potencial) y el Teorema de Stokes en 3D. 
@@ -12,7 +12,7 @@ Este repositorio contiene un motor de cálculo vectorial desarrollado en Python.
 
 1. **Clonar el repositorio y entrar en la carpeta:**
    ```bash
-   git clone [URL_DE_TU_REPO]
+   git clone https://github.com/dev-diego-uni/multuvariado.git
    cd campos-vectoriales-ciaf
 
 2. **Instalar las dependencias:**
