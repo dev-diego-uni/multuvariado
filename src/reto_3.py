@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Teorema de Green - CIAF", layout="centered")
 
 st.title("Cálculo Multivariado: Teorema de Green Interactivo")
-st.markdown("**Proyecto Integrador - Universidad CIAF 2026**")
+st.markdown("**Universidad CIAF 2026**")
 
 # Slider interactivo para el radio R
 R = st.slider("Selecciona el radio del círculo (R):", min_value=0.5, max_value=5.0, value=2.0, step=0.1)
@@ -40,5 +40,3 @@ ax.set_title(f"Campo F y Círculo C (Radio = {R})")
 
 # Mostrar gráfica en la web
 st.pyplot(fig)
-
-st.info("Para desplegar esto gratis, sube tu repo a GitHub y conéctalo en [share.streamlit.io](https://share.streamlit.io).")
