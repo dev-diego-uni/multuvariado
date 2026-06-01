@@ -18,28 +18,32 @@ Este repositorio contiene un motor de cálculo vectorial desarrollado en Python.
    git clone https://github.com/dev-diego-uni/multuvariado.git
    cd campos-vectoriales-ciaf
 
-2. **Instalar las dependencias:**
+2. **Crear entorno virtual**
+    ```bash
+    python -m venv env
+
+3. **Instalar las dependencias:**
     ```bash
     pip install -r requirements.txt
 
-3. **Ejecutar el motor de cálculo matemático:**
+4. **Ejecutar el motor de cálculo matemático:**
     ```bash
     python src/vector_engine.py
 
-4. **Generar las visualizaciones (se guardarán en /output):**
+5. **Generar las visualizaciones (se guardarán en /output):**
     ```bash
     python src/visualizacion.py
 
-5.  **Correr las pruebas unitarias con pytest:**
+6.  **Correr las pruebas unitarias con pytest:**
     ```bash
     python -m pytest tests/test_engine.py
 
-6. **Ejecutar los Retos Matemáticos Extra (Área y Gravedad):**
+7. **Ejecutar los Retos Matemáticos Extra (Área y Gravedad):**
     ```bash
     python src/reto_1.py
     python stc/reto_2.py
 
-7. **Desplegar la App Interactiva localmente (Streamlit):**
+8. **Desplegar la App Interactiva localmente (Streamlit):**
     ```bash
     streamlit run src/reto_3.py
 
@@ -60,7 +64,7 @@ Este repositorio contiene un motor de cálculo vectorial desarrollado en Python.
     Simulador web interactivo en tiempo real para el Teorema de Green. 
     Enlace: http://multivariado.streamlit.app/
 
-## Ejercicio, Analítico, Numérico,Error Relativo (%)## 
+## Ejercicio, Analítico, Numérico,Error Relativo (%) ## 
 
     1. Green,75.398224,75.398224,0.000000e+00%
     2. Conservativo,3.000000,3.000000,0.000000e+00%
